@@ -378,4 +378,7 @@ margin: 0;
   margin: 10px;
   list-style: none;
 }
+  
+  html, body {
+  overflow-x: hidden;
 }
