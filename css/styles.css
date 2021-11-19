@@ -370,4 +370,19 @@ margin: 0;
  width: 98%;
  padding-right: 10px;
 }
+  
+  orm{
+  display: block;
+  text-align: center;
+}
+
+#submitted{
+  margin-left: 4rem;
+
+}
+
+#Support h3{
+  font-size: 0.6rem;
+  margin-left: 3.1rem;
+}
 }
