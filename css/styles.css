@@ -365,4 +365,9 @@ margin: 0;
   html, body {
   overflow-x: hidden;
 }
+  
+ .nav-link li:hover .sub-menu2 ul{
+ width: 98%;
+ padding-right: 10px;
+}
 }
