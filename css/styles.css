@@ -337,16 +337,18 @@ footer{
   height: auto;
 }
 
- #nav-bar ul li{
-  float: none;
-  text-align: left;
-  width: 100%;
+  
+#nav-bar ul li, .nav-link li:hover .sub-menu, .nav-link li:active .sub-menu, .nav-link li:hover .sub-menu2, .nav-link li:active .sub-menu2{
+float: none;
+text-align: left;
+    width: 100%;
   margin: 0;
   padding: 0;
   position: static;
 }
 
-#nav-bar ul li a{
+#nav-bar ul li a, .nav-link li:hover .sub-menu li a, .nav-link li:active .sub-menu li a, .nav-link li:hover .sub-menu2 li a, .nav-link li:active .sub-menu2 li a  {
+
 color: #fff;
 padding: 15px;
 border-bottom: 1px solid #404040;
@@ -359,25 +361,6 @@ margin: 0;
   transform:none;
 }
 
-.nav-link li{
-  position: relative;
-}
-
-.nav-link li:hover .sub-menu, .nav-link li:active .sub-menu,{
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  background-color: black;
-  list-style: none;
-
-}
-
-.nav-link li:hover  .nav-link li:active .sub-menu ul, .nav-link li:hover .sub-menu2 ul{
-  display: block;
-  margin: 10px;
-  list-style: none;
-}
   
   html, body {
   overflow-x: hidden;
